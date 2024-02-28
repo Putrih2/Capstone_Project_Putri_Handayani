@@ -9,10 +9,6 @@ st.set_page_config(
 st.title("5 Negara Paling Bahagia di Dunia Tahun 2024. Ada Hubungannya dengan Populasi Penduduk?")
 st.text("By: Putri Handayani")
 
-from PIL import Image
-image = Image.open("bahagia.jpg")
-st.image(image,
-caption="A Happy Family")
 custom_container = st.container(border=True)
 with custom_container:st.write("Negara-negara di seluruh dunia memiliki tingkat kebahagiaan yang berbeda-beda, dan setiap tahun, sebuah indeks global diterbitkan untuk menentukan negara-negara yang paling bahagia. Berdasarkan World Happiness Report 2024, negara-negara di Skandinavia, seperti Finlandia, Denmark, dan Iceland sering kali menduduki peringkat teratas sebagai negara paling bahagia di dunia. Berikut 5 negara yang menduduki tingkat teratas sebagai negara paling bahagia di dunia.")
 
